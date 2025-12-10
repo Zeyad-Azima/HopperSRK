@@ -3,7 +3,7 @@
 
 PLUGIN_NAME = PersistenceAnalyzer
 BUNDLE_NAME = $(PLUGIN_NAME).hopperTool
-SDK_PATH = ../hopper-plugins/HopperSDK
+SDK_PATH = ../HopperSDK
 
 # Build directories
 BUILD_DIR = build
