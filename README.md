@@ -70,6 +70,95 @@ git clone https://github.com/Zeyad-Azima/HopperSRK.git
 cd HopperSRK
 make install
 ```
+- Output:
+
+```ah
+HopperSRK % make install
+
+╔════════════════════════════════════════════════════════════════╗
+║  HopperSRK - Hopper Security Researchers Kit v2.0.0          ║
+║  Building All Security Analyzer Plugins                       ║
+╚════════════════════════════════════════════════════════════════╝
+
+[1/12] Building FileOpAnalyzer...
+make[1]: Nothing to be done for `all'.
+  ✓ FileOpAnalyzer built successfully
+
+[2/12] Building XPCAnalyzer...
+make[1]: Nothing to be done for `all'.
+  ✓ XPCAnalyzer built successfully
+
+[3/12] Building NetworkAnalyzer...
+make[1]: Nothing to be done for `all'.
+  ✓ NetworkAnalyzer built successfully
+
+[4/12] Building MachIPCAnalyzer...
+make[1]: Nothing to be done for `all'.
+  ✓ MachIPCAnalyzer built successfully
+
+[5/12] Building KeychainAnalyzer...
+make[1]: Nothing to be done for `all'.
+  ✓ KeychainAnalyzer built successfully
+
+[6/12] Building ProcessInjectionAnalyzer...
+make[1]: Nothing to be done for `all'.
+  ✓ ProcessInjectionAnalyzer built successfully
+
+[7/12] Building AntiAnalysisDetector...
+make[1]: Nothing to be done for `all'.
+  ✓ AntiAnalysisDetector built successfully
+
+[8/12] Building PersistenceAnalyzer...
+make[1]: Nothing to be done for `all'.
+  ✓ PersistenceAnalyzer built successfully
+
+[9/12] Building C2Analyzer...
+[1/4] Creating bundle structure...
+[2/4] Compiling plugin...
+[3/4] Copying Info.plist...
+[4/4] Build complete!
+✓ Plugin bundle: build/C2Analyzer.hopperTool
+  ✓ C2Analyzer built successfully
+
+[10/12] Building RootkitDetector...
+[1/4] Creating bundle structure...
+[2/4] Compiling plugin...
+[3/4] Copying Info.plist...
+[4/4] Build complete!
+✓ Plugin bundle: build/RootkitDetector.hopperTool
+  ✓ RootkitDetector built successfully
+
+[11/12] Building PrivilegeEscalationDetector...
+[1/4] Creating bundle structure...
+[2/4] Compiling plugin...
+[3/4] Copying Info.plist...
+[4/4] Build complete!
+✓ Plugin bundle: build/PrivilegeEscalationDetector.hopperTool
+  ✓ PrivilegeEscalationDetector built successfully
+
+[12/12] Building SyscallAnalyzer...
+[1/4] Creating bundle structure...
+[2/4] Compiling plugin...
+[3/4] Copying Info.plist...
+[4/4] Build complete!
+✓ Plugin bundle: build/SyscallAnalyzer.hopperTool
+  ✓ SyscallAnalyzer built successfully
+
+╔════════════════════════════════════════════════════════════════╗
+║  All 12 Plugins Built Successfully!                           ║
+╚════════════════════════════════════════════════════════════════╝
+
+
+╔════════════════════════════════════════════════════════════════╗
+║  Installing HopperSRK Plugins                                  ║
+╚════════════════════════════════════════════════════════════════╝
+
+[1/12] Installing FileOpAnalyzer...
+Installing plugin...
+✓ Plugin installed to v4: /Users/user/Library/Application\ Support/Hopper/Plugins/v4/Tools/FileOpAnalyzer.hopperTool
+✓ Plugin installed to v5: /Users/user/Library/Application\ Support/Hopper/Plugins/v5/Tools/FileOpAnalyzer.hopperTool
+<SNIP>
+```
 
 This will build and install all 12 plugins to:
 
